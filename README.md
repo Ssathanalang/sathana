@@ -1,1 +1,118 @@
-# sathana
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathana S. - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .content section {
+            width: 45%;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sathana S. - Portfolio</h1>
+    <p>BCA 2nd Year Student</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="content">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Sathana S., a passionate student currently pursuing my BCA (Bachelor of Computer Applications) in my second year. I am keen to develop my skills in programming, web development, and data analysis. I enjoy learning new technologies and solving complex problems.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </section>
+</div>
+
+<div class="content">
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul>
+            <li><strong>Project 1:</strong> Web-based To-Do List Application (HTML, CSS, JavaScript)</li>
+            <li><strong>Project 2:</strong> Online Quiz System (Python, Flask)</li>
+            <li><strong>Project 3:</strong> Data Analysis with Python (Pandas, Matplotlib)</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch with me, feel free to reach out:</p>
+        <p>Email: sathana@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sathanas" target="_blank">linkedin.com/in/sathanas</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Sathana S. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
